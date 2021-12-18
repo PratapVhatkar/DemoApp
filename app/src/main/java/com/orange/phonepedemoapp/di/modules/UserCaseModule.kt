@@ -8,5 +8,5 @@ import dagger.Module
 @Module
 internal abstract class UserCaseModule {
     @Binds
-    abstract fun bindGitRepsoitory(useCase: PopularUseCaseImpl): PopularMovieUseCase
+    abstract fun bindMovieRepsoitory(useCase: PopularUseCaseImpl): PopularMovieUseCase
 }
