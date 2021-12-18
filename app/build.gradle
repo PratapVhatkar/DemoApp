@@ -54,7 +54,7 @@ dependencies {
     // Add Dagger dependencies
 
 
-    def daggerVer = 2.38 // or latest version
+    def daggerVer = 2.11 // or latest version
     implementation "com.google.dagger:dagger:$daggerVer"
     implementation "com.google.dagger:dagger-android-support:$daggerVer"
     kapt "com.google.dagger:dagger-android-processor:$daggerVer"

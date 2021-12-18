@@ -1,0 +1,8 @@
+package com.orange.phonepedemoapp.ui.main
+
+import androidx.lifecycle.ViewModel
+import javax.inject.Inject
+
+class MainViewModel @Inject constructor() : ViewModel() {
+
+}
